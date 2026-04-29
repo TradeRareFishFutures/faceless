@@ -1,3 +1,4 @@
 .env
 audio_lines/
 __pycache__/
+firefox_profile/
