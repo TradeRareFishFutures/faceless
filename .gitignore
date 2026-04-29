@@ -4,3 +4,62 @@ __pycache__/
 firefox_profile/
 output_mp3s/
 chrome_profile/
+output_peter_stewie/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Output audio files (these can be very large)
+output_peter_stewie/
+output_*/
+
+# Reference audio (optional - only if you don't want to commit them)
+# references/*.wav
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables / secrets
+.env
+.huggingface/
+hf_token
+
+# Large model files (safetensors can be big)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs
+*.log
