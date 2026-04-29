@@ -2,3 +2,5 @@
 audio_lines/
 __pycache__/
 firefox_profile/
+output_mp3s/
+chrome_profile/
